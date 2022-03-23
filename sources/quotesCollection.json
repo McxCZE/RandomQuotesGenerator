@@ -1,0 +1,12 @@
+{
+	"Quote" : [
+        {
+            "saying": ["Lok'tar Ogar", "Zug zug", "Co ja vim"]
+        }
+	],
+    "Person" : [
+        {
+            "person": ["P. Fiala", "Thrall"]
+        }
+    ]
+}

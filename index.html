@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2016-11-16
+    See: https://launchpad.net/bugs/1288690
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    
+    <title>Roboti - Výsledovka</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="sources/webFunctions.js"></script>
+    <script>
+        $(document).ready(function(){
+          //#region - Menu
+          $("#menu a div").click(function(){
+            if (this.innerHTML == "Generuj") {$.fn.generateMain()};
+          });
+
+          // if ($("#mainApp").length) {
+          //   $.fn.generateMain()
+          // };
+          //#endregion
+        });
+    </script>
+  </head>
+  <body>
+      <div>
+        <div id="menu">
+          <a href="#"><div>Generuj</div></a>
+        </div>
+        <div id="mainApp">
+            <div id="dynamicDiv"></div>
+        </div>
+    </div>
+    <script>
+    </script>
+    <div class="validator">
+    </div>
+  </body>
+</html>
