@@ -1,12 +1,12 @@
 {
 	"Quote" : [
         {
-            "saying": ["Lok'tar Ogar", "Zug zug", "Co ja vim"]
+            "quotes": ["Lok'tar Ogar", "Zug zug", "Co ja vim"]
         }
 	],
     "Person" : [
         {
-            "person": ["P. Fiala", "Thrall"]
+            "people": ["P. Fiala", "Thrall"]
         }
     ]
 }

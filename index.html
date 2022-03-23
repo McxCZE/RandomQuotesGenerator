@@ -11,29 +11,21 @@
     <meta http-equiv='expires' content='0'>
     <meta http-equiv='pragma' content='no-cache'>
     
-    <title>Roboti - Výsledovka</title>
+    <title>Random Quotes Generator</title>
     <link rel="stylesheet" href="styles.css">
     <script src="jquery-3.6.0.min.js"></script>
     <script src="sources/webFunctions.js"></script>
     <script>
         $(document).ready(function(){
-          //#region - Menu
-          $("#menu a div").click(function(){
-            if (this.innerHTML == "Generuj") {$.fn.generateMain()};
-          });
-
-          // if ($("#mainApp").length) {
-          //   $.fn.generateMain()
-          // };
-          //#endregion
+          $.fn.generateMain()
         });
     </script>
   </head>
   <body>
       <div>
-        <div id="menu">
+        <!-- <div id="menu">
           <a href="#"><div>Generuj</div></a>
-        </div>
+        </div> -->
         <div id="mainApp">
             <div id="dynamicDiv"></div>
         </div>
