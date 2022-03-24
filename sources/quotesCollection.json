@@ -1,12 +1,19 @@
 {
 	"Quote" : [
         {
-            "quotes": ["Lok'tar Ogar", "Zug zug", "Co ja vim"]
+            "quotes": ["Já to všechno prcám.", "Letim jako rogalo.", "Uvěritelný věci si člověk vymyslí, neuvěřitelný se stávají.", "Lok’tar Ogar!", "Já bych si s dovolením také dal.", "Když se leknu, tak prostě najednou přestanu mluvit.", "Zdeno?! Zdeno?!!!", "Nehci zabrušovat, abych nemusel vybrušovat.", 
+                "Cože, seš načatá?", "A když nemáte žampióny, tak tam nedávejte nic.", "Je to tak, šéfe, že jsem to omylem dal do jinýho hrníčku.", "Já jsem si přišel hrát s kamením.", "Íjíjíjíjíjí!", "Zeman je kunda.", "Gut race today, very gut vetr.", "Čágo bélo šílenci!", "That´s what she said!", "Se stim smiř!",
+                "Si zabil!", "Když tě chytí, tak jsi v řiti."
+                ]
         }
 	],
     "Person" : [
         {
-            "people": ["P. Fiala", "Thrall"]
+            "people": ["Jiří Kára", "Jakub Yzomandias Vlček", "Vikdor Dufka", "Thrall", 
+                "Jára Cimrman", "Zdena Novotná", "kamarád paní Zdeny", "Miloslav Rozner", 
+                "Slávek Boura", "Jirka Babica", "kychyňský učeň", "kluk s kamením", "Xena princezna válečnice", 
+                "Ferdinand Peroutka", "Stanislav Řezáč", "Tereza Pergnerová", 
+                "Michael Scott", "Zmikund Lucembruski", "Rytmus", "Haina Pawlowská"]
         }
     ]
 }

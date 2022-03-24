@@ -1,0 +1,19 @@
+body {
+    background-color:black;
+}
+
+.quote {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 48pt;
+    color: rgba(255,255,254,255);
+    margin: auto;
+}
+
+.person {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    color: rgba(255,255,0,255);
+    margin: auto;
+}
