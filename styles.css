@@ -1,19 +1,28 @@
 body {
-    background-color:black;
+    background-color:rgb(34, 34, 34);
 }
 
-.quote {
+#dynamicDiv div {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 48pt;
+    text-align:center;
+}
+
+#dynamicDiv {
+    margin: 0;
+    top:50%;
+    left:50%;
+    position:absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+}
+
+.quote {
     color: rgba(255,255,254,255);
-    margin: auto;
 }
 
 .person {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30pt;
     color: rgba(255,255,0,255);
-    margin: auto;
 }
+
